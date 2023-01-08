@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pipe And Cisterns</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body id="quiz">
+    <!-- content here  -->
+
+    <div class="box" id="question">
+        <div class="title">Quiz App</div>
+        <div class="header">
+            <div class="timeBox"> <span></span> </div>
+            <div class="scoreBox" id="score">SCORE:<span>0</span></div>
+        </div>
+        <div class="questionBox"></div>
+        <div class="optionBox">
+            <span onclick="checkAnswer(this)" data-opt="1"></span>
+            <span onclick="checkAnswer(this)" data-opt="2"></span>
+            <span onclick="checkAnswer(this)" data-opt="3"></span>
+            <span onclick="checkAnswer(this)" data-opt="4"></span>
+        </div>
+        <div class="footer">
+            <button onclick="showNext()">Next Question</button>
+            <button onclick="showResult(1)">Show Result</button>
+
+        </div>
+    </div>
+    <div class="box" id="result" style="display: none;">
+        <div class="title"> Quiz Result</div>
+
+        <div class="resultBox">
+
+            <label>Total Time:</label>
+            <span id="totalTime">300 sec</span>
+            <label>Total Question:</label>
+            <span id="totalQuestion">10</span>
+            <label>Attempt:</label>
+            <span id="totalAttempt">0</span>
+            <label>Correct:</label>
+            <span id="totalCorrect">0</span>
+            <label>Wrong:</label>
+            <span id="totalWrong">0</span>
+            <!-- <label>Percentage:</label>
+            <span id="totalPercentage"></span> -->
+        </div>
+        <div class="buttonBox">
+            <a id="btn1" href="questions1.html">Start Again</a>
+            <a id="btn2" href="index.html">Go To Home</a>
+        </div>
+    </div>
+</body>
+<script src="assets/js/jquery-3.5.1.min.js"></script>
+<script src="assets/js/quiz1.js"></script>
+<script src="assets/js/script.js"></script>
+
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>testbook quiz</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+    <!-- content here  -->
+    <div class="container">
+        <div id="userdetails">
+            <img src="assets/img/testbook.png">
+            <h1>Hello users!</h1>
+            <p>Enter your name to continue the Quiz.</p>
+            <form id="form1" name="form1">
+                <input id="field1" type="text" class="required" placeholder="ENTER YOUR NAME...">
+
+                <button id="ent" value="validate">Enter</button>
+            </form>
+        </div>
+        <div id="catagory">
+            <h1>Select Catagory</h1>
+            <p>The catagory button will navigate us to a list of 10 questions each</p>
+            <button class="btn" onclick="window.location.href = 'questions1.html';">Pipes And Cisterns</button>
+            <button class="btn" onclick="window.location.href = 'questions2.html';">Problem On Ages</button>
+            <button class="btn" onclick="window.location.href = 'questions3.html';">Probability</button>
+            <button class="btn" onclick="window.location.href = 'questions4.html';">Profit And Loss</button>
+            <br><br>
+        </div>
+    </div>
+</body>
+<script>
+</script>
+<script src="assets/js/jquery-3.5.1.min.js"></script>
+<script src="assets/js/tilt.min.js"></script>
+<script src="assets/js/script.js"></script>
+
+</html>
