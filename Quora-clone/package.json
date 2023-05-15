@@ -1,0 +1,14 @@
+{
+  "name": "qoura-clone",
+  "version": "1.0.0",
+  "description": "This project was bootstrapped with [Create React App]",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kanjasmita",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
